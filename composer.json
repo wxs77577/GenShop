@@ -1,16 +1,14 @@
 {
-    "name": "yiisoft/yii2-app-advanced",
-    "description": "Yii 2 Advanced Project Template",
-    "keywords": ["yii2", "framework", "advanced", "project template"],
-    "homepage": "http://www.yiiframework.com/",
+    "name": "GenShop",
+    "description": "GenShop，基于Yii2，来自GenYii",
+    "keywords": ["yii2","shop","genyii","alipay","qq","weixin","cart","商城"],
+    "homepage": "https://github.com/GenYii/GenShop",
     "type": "project",
-    "license": "BSD-3-Clause",
+    "license": "Apache License",
     "support": {
-        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2"
+        "issues": "https://github.com/GenYii/GenShop/issues",
+        "wiki": "https://github.com/GenYii/GenShop/wiki",
+        "source": "https://github.com/GenYii/GenShop"
     },
     "minimum-stability": "dev",
     "require": {
@@ -18,6 +16,11 @@
         "yiisoft/yii2": ">=2.0.4",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
+        "omnilight/yii2-shopping-cart": "*",
+        "xj/yii2-oauth": "*",
+        "dmstr/yii2-adminlte-asset": "2.*",
+        "gerpayt/yii2-alipay": "*",
+        "amnah/yii2-user": "dev-master",
         "kartik-v/yii2-grid": "*",
         "kartik-v/yii2-helpers": "*"
     },
